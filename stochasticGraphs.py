@@ -1,8 +1,3 @@
-import numpy as np
-import networkx as nx
-import matplotlib.pyplot as plt
-from functools import reduce
-
 # %%
 %%markdown
 # Stochastic Processes in Graphs
@@ -28,6 +23,10 @@ In this section we study random graphs $G = (N, p)$ where $N$ is fixed number of
 
 
 # %%
+import numpy as np
+import networkx as nx
+import matplotlib.pyplot as plt
+from functools import reduce
 
 n = 10
 p = 0.5
