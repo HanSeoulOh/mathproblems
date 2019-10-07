@@ -107,6 +107,8 @@ for i in range(iterations):
 
 average = sum(queue)/iterations
 print("It takes on average " + str(average) + " iterations until the entire network has updated in value.")
+# %%
+%matplotlib inline
 sns.countplot(list(map(int, queue)))
 # %%
 %%markdown
@@ -154,6 +156,9 @@ for iter in range(iterations):
         count += 1
     count = 0
 
+# %%
+
+%matplotlib inline
 sns.lineplot(data=pd.DataFrame(lags).mean())
 #
 # average = sum(queue)/iterations
