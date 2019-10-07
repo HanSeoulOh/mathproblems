@@ -1,9 +1,7 @@
-# %%
-%%markdown
+# %%markdown
 # Stochastic Processes in Graphs
 ##### Han Du
-# %%
-%%markdown
+# %%markdown
 
 The purposes of this notebook is to study stochastic processes and algorithms on graphs.
 
@@ -33,9 +31,6 @@ p = 0.5
 upperDiagIndices = np.triu_indices(n, 1)
 
 # graph initialization
-
-
-
 
 def randomizeEdges(G, n, p):
     m = map((lambda x: x > p), np.random.normal(size = int((n-1) * n / 2)))
